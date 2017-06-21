@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.visitcbe.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temple"
+        android:layout_weight="1"
+        android:background="#EF6C00"
+        android:gravity="center"
+        android:onClick="openTempleList"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food"
+       android:layout_weight="1"
+        android:background="#64DD17"
+        android:gravity="center"
+        android:onClick="openFoodList"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College"
+        android:layout_weight="1"
+        android:background="#18FFFF"
+        android:gravity="center"
+        android:onClick="openCollegeList"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tourist Places"
+        android:layout_weight="1"
+        android:background="#E040FB"
+        android:gravity="center"
+        android:onClick="openTouristPlacesList"/>
+
+
+</LinearLayout>
