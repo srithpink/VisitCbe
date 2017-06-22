@@ -9,6 +9,7 @@
     tools:context="com.example.android.visitcbe.MainActivity">
 
     <TextView
+        android:id="@+id/temple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Temple"
@@ -17,6 +18,7 @@
         android:gravity="center"
         android:onClick="openTempleList"/>
     <TextView
+        android:id="@+id/food"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Food"
@@ -25,6 +27,7 @@
         android:gravity="center"
         android:onClick="openFoodList"/>
     <TextView
+        android:id="@+id/college"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="College"
@@ -33,6 +36,7 @@
         android:gravity="center"
         android:onClick="openCollegeList"/>
     <TextView
+        android:id="@+id/touristPlaces"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tourist Places"
