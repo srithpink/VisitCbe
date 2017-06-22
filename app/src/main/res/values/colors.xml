@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="color_temple">#EF6C00</color>
+    <color name="color_food">#64DD17</color>
+    <color name="color_college">#18FFFF</color>
+    <color name="color_touristPlaces">#E040FB</color>
 </resources>
